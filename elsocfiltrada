@@ -1,0 +1,3 @@
+url <- "ELSOC2022_filtrada.sav"
+data <- readr::read_sav(url)
+dim(data) 
